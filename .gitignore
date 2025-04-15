@@ -17,9 +17,20 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+data/*.gz
+data/galaxy*
+data/power*
+data/utopia.json
+data/systems*
+
 # Go workspace file
 go.work
 go.work.sum
+
+m
+m.exe
+ed-pp-db.exe
+ed-pp-db
 
 # env file
 .env

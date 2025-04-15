@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "type": "go",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/${input:programPath}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "programPath",
+      "description": "Enter the path to the Go file to debug (e.g., main.go)"
+    }
+  ]
+}
